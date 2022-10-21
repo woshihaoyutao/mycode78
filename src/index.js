@@ -1,3 +1,4 @@
 import Str from "./str";
-const h3 = "<h3>来来来</h3>";
-console.log(Str.link + h3);
+const div1 = document.getElementById("div1");
+const h3 = "<h3>测试哈哈哈</h3>";
+div1.innerHTML = Str.link + h3;

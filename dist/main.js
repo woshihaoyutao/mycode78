@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _str__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./str */ \"./src/str.js\");\n\r\nconst h3 = \"<h3>来来来</h3>\";\r\nconsole.log(_str__WEBPACK_IMPORTED_MODULE_0__[\"default\"].link + h3);\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _str__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./str */ \"./src/str.js\");\n\r\nconst div1 = document.getElementById(\"div1\");\r\nconst h3 = \"<h3>测试哈哈哈</h3>\";\r\ndiv1.innerHTML = _str__WEBPACK_IMPORTED_MODULE_0__[\"default\"].link + h3;\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
